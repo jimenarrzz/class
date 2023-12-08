@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'open sans';
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.title{
+    color:brown;
+    font-size: 30px;
+    text-align: center;
+    margin: 60px;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 600px;
+    background: #032644;  /* fallback for old browsers */
+    background: linear-gradient(to right, #ec6ead9e, #3493e688),url(../imagens/we2.PNG);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec6ead9e, #3493e688),url(../imagens/we2.PNG);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment:fixed ;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding:30px 50px 0 0;
+}
+nav > a{
+    color: aliceblue;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right:10px ;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .Texts-header{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Texts-header h1{
+    font-size: 50px;
+    font-weight: 300;
+    color: black;
+
+}
+.Texts-header h2{
+    font-size: 30px;
+    font-weight: 100;
+    color:black;
+}
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*about Us*/
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-about-our{
+    display: flex;
+    align-items: center;
+    flex-wrap: 10px;
+}
+
+.imagen-about-our{
+    width: 500px;
+    height: 300px;
+}
+.about-our .content-text{
+    margin-left: 30px;
+    width: 450px;
+}
+
+.contenedor-text {
+    margin-left: 20px !important;
+}
+
+.contenedor-text h3{
+    margin-bottom: 15px;
+}
+
+.content-text h3 span{
+    background: mediumorchid;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0,0,.5);
+    margin-right: 10px;
+}
+.content-text p{
+    padding:0px 0px 30px 15px;
+    font-weight:300;
+    text-align: justify;
+}
+/*promocion*/
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px ;    
+}
+.servicio-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.servicio-ind{
+    width: 28%;
+    text-align: center;    
+}
+.servicio-ind img{
+    width: 90%;
+}
+.servicio-ind h3{
+    margin:10px 0;
+}
+.servicio-ind h3{
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* Footer */
+footer{
+    background: #414141;
+    padding: 50px 0 20px 0;
+    margin:auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin:auto;
+    padding-bottom: 50px;
+    border-bottom: 10px solid #ccc;
+}
+
+.content-foo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.title-final{
+    font-size: 20px;
+}
+
+/* ... (Otros estilos) ... */
+
+/* Estilos para la sección About Us */
+.about-our {
+    background: #fff; /* Fondo blanco para resaltar el contenido */
+    padding: 60px 0;
+}
+
+.contenedor-about-our {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.imagen-about-our {
+    width: 50%; 
+    height: auto; 
+}
+
+.about-our .content-text {
+    width: 40%; 
+}
+
+/* ... promocion ... */
+
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-container img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* contac */
+#contactForm {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A52A2A; 
+}
+
+
+
